@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="13" total="14" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-27T16:54:49 IST" name="Default suite" finished-at="2023-02-27T16:56:16 IST" duration-ms="86266">
+    <groups>
+    </groups>
+    <test started-at="2023-02-27T16:54:49 IST" name="Default test" finished-at="2023-02-27T16:56:16 IST" duration-ms="86266">
+      <class name="com.WebmathTestCases.TestClass">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.WebmathTestCases.TestClass@661972b0]" started-at="2023-02-27T16:54:49 IST" name="initialization" finished-at="2023-02-27T16:55:14 IST" duration-ms="24808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="baseclass()[pri:0, instance:com.WebmathTestCases.TestClass@661972b0]" started-at="2023-02-27T16:55:14 IST" name="baseclass" finished-at="2023-02-27T16:55:54 IST" duration-ms="39897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseclass -->
+        <test-method signature="validatefractiontodecimal()[pri:6, instance:com.WebmathTestCases.TestClass@661972b0]" started-at="2023-02-27T16:55:54 IST" name="validatefractiontodecimal" finished-at="2023-02-27T16:56:15 IST" duration-ms="21445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefractiontodecimal -->
+        <test-method is-config="true" signature="closebowser()[pri:0, instance:com.WebmathTestCases.TestClass@661972b0]" started-at="2023-02-27T16:56:16 IST" name="closebowser" finished-at="2023-02-27T16:56:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebowser -->
+      </class> <!-- com.WebmathTestCases.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

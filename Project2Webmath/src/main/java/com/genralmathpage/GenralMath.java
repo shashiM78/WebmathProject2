@@ -44,8 +44,8 @@ public class GenralMath extends BaseClass {
 	}
 	
 	public void fractiontodeci() {
-		driver.findElement(By.xpath("//a[contains(text(),'General Math')]")).click();
-		driver.findElement(By.xpath("//a[contains(text(),'Fraction to Decimal')]")).click();
+		driver.findElement(By.xpath(prop1.getProperty("genralmath"))).click();
+		driver.findElement(By.xpath(prop1.getproperty("decimalbutton"))).click();
 		driver.findElement(By.name(prop1.getProperty("name1"))).sendKeys(prop1.getProperty("value1"));
 		driver.findElement(By.name(prop1.getProperty("name2"))).sendKeys(prop1.getProperty("value2"));
 		driver.findElement(By.name(prop1.getProperty("name3"))).sendKeys(prop1.getProperty("value3"));

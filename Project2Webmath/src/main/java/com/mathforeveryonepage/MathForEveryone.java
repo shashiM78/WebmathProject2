@@ -38,15 +38,15 @@ public class MathForEveryone extends BaseClass {
 	}
 	public void simpleintrest() {
 		driver.findElement(By.xpath(prop.getProperty("math"))).click();
-		driver.findElement(By.xpath("//a[contains(text(),'Simple Interest')]")).click();
-		driver.findElement(By.name("principal")).sendKeys("200");
-		driver.findElement(By.name("interest")).sendKeys("3");
-		driver.findElement(By.xpath("//select[1]/option[3][@value='month']")).click();
-		driver.findElement(By.name("desired_time")).sendKeys("1");
-		driver.findElement(By.xpath("//option[contains(text(),'Month(s)')]")).click();
-		driver.findElement(By.xpath("//input[1][@type=\"submit\"]")).click();
+		driver.findElement(By.xpath(prop.getproperty("simpleint"))).click();
+		driver.findElement(By.name(prop.getproperty("name4"))).sendKeys(prop.getProperty("nam3"));;
+		driver.findElement(By.name(prop.getproperty("interrate"))).sendKeys(prop.getProperty("rate"));
+		driver.findElement(By.xpath(prop.getproperty("month"))).click();
+		driver.findElement(By.name(prop.getproperty("time"))).sendKeys(prop.getProperty("year"));
+		driver.findElement(By.xpath(prop.getproperty("year1")).click();
+		driver.findElement(By.xpath(prop.getproperty("button")).click();
 		String actual1 = driver.getCurrentUrl();
-		String expt3= "https://www.webmath.com/_answer.php";
+		String expt3= prop.getproperty("expt1");
 		Assert.assertEquals(actual1, expt3);
 		driver.quit();
 	}}
